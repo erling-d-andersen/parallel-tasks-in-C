@@ -10,7 +10,10 @@ cilk_spawn f();
 cilk_spawn g();
 cilk sync;
 </pre>
-will make the functions f and g run in parallel. Very simple and very powerful.
+will make the functions f and g run in parallel. Very simple and very powerful. I have relied on Cilk as implemented in Intel C to run my code. Unforfortuantely Intel has [deprecated](https://software.intel.com/en-us/forums/intel-cilk-plus/topic/745556) support Cilk code.
+
+So Cilk seems dead but it seems a Cilk inspired parallel feature has just been introduced in Julia. For details see the [Julia blog](https://julialang.org/blog/2019/07/multithreading). Also the original inventors of Cilk is still working on it. See [Cilk at MIT](http://cilk.mit.edu).
+
 
 
 
