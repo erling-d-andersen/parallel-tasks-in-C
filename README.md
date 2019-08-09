@@ -1,4 +1,4 @@
-# Parallelizing C code: Whar are the options
+# Parallelizing C code: What are the options
 
 This repository contains no code but rather describe my finding about writing parallel problems in C
 
