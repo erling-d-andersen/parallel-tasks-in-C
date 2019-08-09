@@ -25,6 +25,8 @@ Due to the deprecation of Cilk then I am looking for an alternative that can use
 * Threaded building blocks. C++ only.
 * [Cpp task flow](https://github.com/cpp-taskflow/cpp-taskflow). C++ only.
 
+For the parallelization theta I am doing it seems using a task flow model is beneficial because it is very flexible and provides a sufficiently fine grained tasks to make sure a good load balancing is obtained. At the CPP taskflow website mentioned above there is a good description of the task flow model.
+
 # Terminology
 
 Some common terminology when working on parallism is
