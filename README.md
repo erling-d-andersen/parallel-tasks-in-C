@@ -20,7 +20,7 @@ Due to the deprecation of Cilk then I am looking for an alternative that can use
 * [CheckedThreads](https://github.com/yosefk/checkedthreads)  Source with a liberal license. Cilk like. Both C and C++.
 * [C thread pool](https://github.com/Pithikos/C-Thread-Pool)  Source with a liberal license.
 * [OpenMP](openmp.org) Supported by many compilers.
-* [Pfunc](https://www.coin-or.org/projects/PFunc.xml). Cilk like features. Liberal license. Can be called from C but is C++. Seems very powerful and there is ph.d. thesis about its design. The project might be semi-dead though.
+* [Pfunc](https://projects.coin-or.org/PFunc). Cilk like features. Liberal license. Can be called from C but is C++. Seems very powerful and there is ph.d. thesis about its design. The project might be semi-dead though.
 * Threaded building blocks. C++ only.
 * [Cpp task flow](https://github.com/cpp-taskflow/cpp-taskflow). C++ only.
 
